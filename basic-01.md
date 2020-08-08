@@ -171,6 +171,17 @@ print(arr) # [1,2,5,33]
 
 > 还有一种队列是循环队列，用的不是很多，大家可以自己查一下。
 
+## 推荐题目
+- [min-stack](https://leetcode-cn.com/problems/min-stack/)
+- [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
+- [decode-string](https://leetcode-cn.com/problems/decode-string/)
+- [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [clone-graph](https://leetcode-cn.com/problems/clone-graph/)
+- [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)
+- [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+- [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+- [01-matrix](https://leetcode-cn.com/problems/01-matrix/)
+
 
 ## 更多
 

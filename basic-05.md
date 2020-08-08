@@ -162,6 +162,17 @@ return 合适的值
 - 875.Koko Eating Bananas（Medium）
 - 881.Boats to Save People（Medium）
 
+更多二分推荐：
+
+- [search-for-range](https://www.lintcode.com/problem/search-for-a-range/description)
+- [search-insert-position](https://leetcode-cn.com/problems/search-insert-position/)
+- [search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+- [first-bad-version](https://leetcode-cn.com/problems/first-bad-version/)
+- [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+- [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+- [search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+- [search-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+
 ### 快慢指针
 
 - 26.Remove Duplicates from Sorted Array（Easy）

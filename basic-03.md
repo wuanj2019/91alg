@@ -215,6 +215,7 @@ MAX-HEAPIFY(A, i)
 - 求阶乘
 - 递归求和
 - [662. 二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/) (请分别使用BFS和DFS解决，空间复杂度尽可能低)
+- [967. 连续差相同的数字](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/description/) (隐形树的遍历)
 
 ## 相关题目
 

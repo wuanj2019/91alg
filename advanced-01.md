@@ -79,11 +79,14 @@ Node {
 
 ```
 UNION(x, y)
+  // 将低秩树根指向高秩树根
   if x.rank > y.rank
     y.parent = x
-  else x.parent = y       // 将低秩树根指向高秩树根
-    if (x.rank === y.rank)
-      y.rank = y.rank + 1   // 如果两个树秩相同
+  else
+    x.parent = y
+  // 如果两个树秩相同
+  if (x.rank === y.rank)
+    y.rank = y.rank + 1
 ```
 
 #### 路径压缩的 FIND-SET 实现
@@ -143,8 +146,10 @@ class UF:
         leader_q = self.find(q)
         if self.size[leader_p] < self.size[leader_q]:
             self.parent[leader_p] = leader_q
+            self.size[leader_p] += self.size[leader_q]
         else:
             self.parent[leader_q] = leader_p
+            self.size[leader_q] += self.size[leader_p]
         self.cnt -= 1
     def connected(self, p, q):
         return self.find(p) == self.find(q)
@@ -211,3 +216,4 @@ class UF<T> {
 1. 算法导论
 2. [维基百科](https://zh.wikipedia.org/wiki/%E5%B9%B6%E6%9F%A5%E9%9B%86)
 3. [并查集详解 ——图文解说,简单易懂(转)](https://blog.csdn.net/liujian20150808/article/details/50848646)
+4. [并查集专题](https://github.com/azl397985856/leetcode/blob/master/thinkings/union-find.md)
